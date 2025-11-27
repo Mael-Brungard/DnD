@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: radial-gradient(#333, #161515);
+    color: #cdb9cf;
+}
+
+header {
+    background: url('src/stone.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+header .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-block: 20px;
+    backdrop-filter: brightness(20%);
+}
+
+header img {
+    height: 100px;
+}
+
+.pageTitle {
+    font-size: 1.2rem;
+}
